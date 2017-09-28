@@ -1,7 +1,0 @@
-import sys
-import time
-import os
-
-def t_cls():
-    time.sleep(2)
-    os.system('cls')

@@ -19,11 +19,13 @@ print(user)
 #            f.append(int(e[g]))
 def shrink():
     user = sum(user)
-    for sti in range(len(user)):
-        if user > 9:
-            shrink()
+    useri = []
+    user.append(int(user))
+    for sti in range(len(useri)):
+        while useri > 9:
+            return shrink():
         else:
             ans_er = []
-            ans_er.append(int(user))
+            ans_er.append(int(useri))
             return ans_er
 shrink()
